@@ -8,4 +8,4 @@ def test_add_2():
     assert add(0, 5) == 5
  
 def test_add_3():
-    assert add(-1, 3) != 2
+    assert add(-1, 3) == 2
